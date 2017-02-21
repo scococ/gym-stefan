@@ -1,8 +1,12 @@
 @media(min-width:768px){
-    
+    .social-panel{
+        display: block;
+        height: 43px;  
+    }
 }
 
 @media(min-width:992px){
+    
     
 }
 

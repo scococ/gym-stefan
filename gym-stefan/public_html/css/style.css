@@ -1,10 +1,38 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Dec 6, 2016, 1:44:04 PM
-    Author     : frontend
-*/
 
+header{
+    padding-top: 10px;  
+    
+    background: #252f38;
+}
+header  a{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #435a6f;;   
+    border-radius: 15px;
+    display: inline-block;
+}
+.fa{
+    line-height: 30px;
+    color: #435a6f;
+}
+.list-inline > li{
+    padding: 0 0 0 0 ;
+}
+.social-list{
+    width: 30%;
+}
+.user-log{
+    position: relative;
+    top: -39px;
+}
+.user-log a{
+    padding-left: 5px;
+}
+.user-log input{
+    display: none;
+}
+.social-panel{
+    display: none;
+}
+    
