@@ -1,13 +1,39 @@
 @media(min-width:768px){
-    .social-panel{
+    .social-list{
         display: block;
-        height: 43px;  
     }
+    nav{
+    width: 710px;
+}
+.rosalina,.elizabeth{
+    width: 100%;
+}
+
+.elizabeth img, .rosalina img{
+    width: 100%;
+}
+
+.training .col-md-4{
+    padding-left: 0px;
+}
+.blog .col-md-6{
+    width: 100%;
+}
 }
 
 @media(min-width:992px){
-    
-    
+    .rosalina,.elizabeth{
+    width: 49%;
+}
+.elizabeth{
+    margin-top: 0px !important;
+}
+.blog{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.blog .col-md-6{
+    width: 49%;}
 }
 
 

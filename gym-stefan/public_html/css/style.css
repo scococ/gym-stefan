@@ -1,38 +1,358 @@
 
-header{
-    padding-top: 10px;  
-    
-    background: #252f38;
-}
-header  a{
+header .social-panel a{
     width: 30px;
     height: 30px;
     text-align: center;
-    border: 1px solid #435a6f;;   
+    border: 1px solid #435a6f;   
     border-radius: 15px;
     display: inline-block;
 }
-.fa{
+.social-list{
+    width: 30%;
+    display: none;
+}
+.social-list .fa{
     line-height: 30px;
     color: #435a6f;
 }
-.list-inline > li{
-    padding: 0 0 0 0 ;
+.user-log a {
+    display: inline !important;
+    border: none !important;
+    color:#435a6f ;
 }
-.social-list{
-    width: 30%;
+.user-log p{
+    display: inline !important;
+    padding-left: 10px;
 }
-.user-log{
-    position: relative;
-    top: -39px;
+.user-log a .fa{
+    font-size: 14px;
+    width: 30px;
+    line-height: 30px;
+    border: 1px solid #435a6f;
+    border-radius: 30px;
+    height: 30px;
 }
-.user-log a{
-    padding-left: 5px;
+.user-log li{
+    margin-right: 5px;
 }
+.user-log li:last-of-type{
+    border-left: 1px solid graytext;
+    width: inherit;
+    padding-left: 10px;
+}
+
 .user-log input{
     display: none;
 }
 .social-panel{
-    display: none;
-}
+    padding-top: 10px;
     
+}
+.social-background{
+    background: #252f38;
+}
+.logo-panel{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid graytext;
+}
+.logo-panel a{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #10bcf4;   
+    border-radius: 25px;
+    display: inline-block;
+}
+.shop-cart{
+    padding-top: 10px;
+}
+.shop-cart .fa{
+    line-height: 40px;
+    color: #10bcf4;
+    font-size: 18px;
+}
+.shop-cart p{
+    display: inline-block;
+    padding-left: 5px;
+}
+
+
+.list-inline > li{
+    padding: 0 0 0 0 ;
+}
+.call-us p{
+    margin-bottom: -10px;
+}
+.call-us .fa{
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #10bcf4;   
+    border-radius: 25px;
+    display: inline-block; 
+    position: relative;
+    top: 10px;
+    line-height: 40px;
+    color: #10bcf4;
+}
+.call-us a{
+    padding-left: 26px;
+}
+.site-mail{
+    border: none !important;
+    color: #cfcfcf;
+}
+
+nav a{
+    border: none;
+}
+nav > div{
+    background: white;
+    border: none;
+}
+.navbar{
+    border: none; 
+}
+
+.navbar-nav li a{
+    font-weight: 600;
+    font-size: 14px;
+}
+.collapse ul li a{
+  padding: 20px 25px;
+}
+/*----------END OF HEADER CSS----------*/
+.bx-wrapper img{
+    width: 100%;
+}
+.slider{
+    margin-top: -20px;
+    opacity: 0.8;
+}
+.analyse-goal{
+    padding-top: 80px;
+   }
+.analyse-goal .events{
+    background: #10bcf4;
+    padding-top: 10px;
+    color: white;
+    height: 170px;
+}
+.events div{
+    padding-top: 35px;
+}
+.analyse-goal .goal img{
+    width: 135px;
+    height: 135px;
+}
+
+.analyse-goal .goal div{
+    display: inline-block;
+    width: 70%;
+    
+}
+
+.goal{
+    color: white;
+    background: black;
+    padding-top: 10px;
+    height: 170px;
+}
+.goal h3{
+    color: blue;
+}
+/*--------------END OF ANALYSE GOAL SECTION--------------*/
+.training{
+    margin-top: 40px;
+}
+
+.training .col-md-4 img{
+    height: 55px;
+    width: 55px;
+}
+.rossalina, .elizabeth{
+    padding-left:0px;
+    padding-right: 0px;
+    border: 1px solid gray; 
+}
+.rosalina figure, .elizabeth figure{
+    width: 100%;
+    height: 100%;
+}
+.rossalina figure img, .elizabeth figure img{
+    width: 100%;
+    height: 300px;
+}
+.rossalina col-md-8 div, .elizabeth col-md-8 div{
+    padding: 40px 10px 50px 20px
+}
+.elizabeth{
+    margin-top: 5px;
+}
+
+.training h3{
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.training .col-md-4 figure{
+    display: inline-block;
+}
+.training .fa{
+    color: #10bcf4;
+}
+.training p{
+    font-size: 14px;
+}
+.control{
+    padding-left: 20px;
+    border-right: 1px solid #ebebeb;
+    margin-bottom: 20px;
+}
+.training .col-md-8 a{
+    display: inline-block;
+    background-color: #10bcf4;
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.training .col-md-4 p{
+    font-weight: 500;
+    color: #10bcf4;
+}
+.training .col-md-4{
+    padding-left: 20px;
+}
+.training .col-md-4 a{
+    font-weight: 700;
+}
+/*----------END OF TRAINING SECTION--------------*/
+.slider-list{
+    
+    padding-top:  20px;
+    padding-bottom: 20px;
+    background: #f7f7f7;
+    overflow: hidden;
+}
+.classes-slide{
+    background: #f7f7f7;
+    margin-top: 50px;
+}
+.teachers h3{
+    color: white;
+    font-weight: 700;
+}
+.teachers span{
+    color: #139ecd;
+}
+
+.teacher-1,.teacher-2, .teacher-3{
+    top: 0;
+    left: 0;
+    display: none;
+    position: absolute;
+    opacity: 0.7;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    padding: 150px 40px 20px 40px;
+}
+.teachers p{
+    padding-top: 15px;
+    padding-bottom:  80px;
+    color: white;
+}
+
+.teachers a .fa:hover{
+    color: #139ecd;
+    border: 1px solid #139ecd;
+}
+.teachers a{
+    margin-left: 20px;
+}
+.teachers a .fa{
+    color: white;
+    border: 1px solid white;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+}
+
+.teacher-img, .teachers img{
+    height: 501px;
+    
+}
+.teacher-img:hover .teacher-1,.teacher-img:hover .teacher-2,
+.teacher-img:hover .teacher-3{
+   display: block;
+}
+/*--------END OF CLASSES SLIDER---------*/
+.shop{
+    background: #252f38;
+}
+.shop img{
+    padding: 0px;
+    width: 340px;
+    height: 250px;
+}
+.shop figure{
+     background: white;
+     padding-top: 10px;
+     position: relative;
+}
+.shop .col-md-4 div{
+    background: white;
+    padding: 10px 10px;
+}
+.shop .col-md-4{
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+.shop p, .shop h4{
+    color: #252f38;
+}
+.zoom-palet{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: none;
+    opacity: 0.7;
+    padding: 0px;  
+   
+   
+}
+.zoom-palet a{
+     background: #1a93ba;
+     display: block;
+     width: 40px;
+     height: 40px;
+     
+}
+.zoom-palet a:last-of-type{
+    margin-top: 10px;
+}
+.zoom-palet a .fa{
+    color: white;
+    line-height: 40px;
+    font-size: 24px;
+}
+.shop figure:hover .zoom-palet{
+    display: block;
+}
+/*---------END OF SHOP SECTION-------------*/
+
+.blog h2{
+    padding-top: 50px;
+}
+.blog figure img{
+    display: block;
+    width: 100%;
+}
+.blog .col-md-6{
+    border: 1px solid gray;
+    
+}
