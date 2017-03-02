@@ -1,4 +1,6 @@
-
+img{
+    max-width: 100%;
+}
 header .social-panel a{
     width: 30px;
     height: 30px;
@@ -9,7 +11,7 @@ header .social-panel a{
 }
 .social-list{
     width: 30%;
-    display: none;
+    display: block;
 }
 .social-list .fa{
     line-height: 30px;
@@ -172,10 +174,8 @@ nav > div{
     height: 55px;
     width: 55px;
 }
-.rossalina, .elizabeth{
-    padding-left:0px;
-    padding-right: 0px;
-    border: 1px solid gray; 
+.rossalina article, .elizabeth article{
+    border: 1px solid graytext;
 }
 .rosalina figure, .elizabeth figure{
     width: 100%;
@@ -185,9 +185,7 @@ nav > div{
     width: 100%;
     height: 300px;
 }
-.rossalina col-md-8 div, .elizabeth col-md-8 div{
-    padding: 40px 10px 50px 20px
-}
+
 .elizabeth{
     margin-top: 5px;
 }
@@ -231,6 +229,49 @@ nav > div{
     font-weight: 700;
 }
 /*----------END OF TRAINING SECTION--------------*/
+/*Classes slide*/
+
+.slide-img{
+    position: relative;
+    padding: 5px;
+    text-transform: uppercase;
+}
+.slide-img .hover{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background: rgba(255,255,255,0.5);
+    padding: 10px;
+}
+.slide-img .hover:hover .carousel-icon{
+    background: black;
+    opacity: 0.8;
+}
+
+.slide-img .carousel-icon{
+    position: relative;
+    border:1px solid #ccc;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    color: #10bcf4;
+}
+.slide-img .carousel-icon img{
+    width: 70px;
+    height: 70px;   
+    display: inline-block;
+    padding-top: 30px;
+}
+.slide-img .boxing{
+    width: 30px !important;
+    height: 80px !important;
+}
+.slide-img a{
+    text-decoration: none;
+}/*-------END OF CLASSES SLIDE------------*/
 .slider-list{
     
     padding-top:  20px;
@@ -344,7 +385,9 @@ nav > div{
     display: block;
 }
 /*---------END OF SHOP SECTION-------------*/
-
+.blog{
+    margin-bottom: 40px;
+}
 .blog h2{
     padding-top: 50px;
 }
@@ -352,7 +395,68 @@ nav > div{
     display: block;
     width: 100%;
 }
-.blog .col-md-6{
+.blog article{
     border: 1px solid gray;
     
+}
+.blog a{
+    display: inline-block;
+    background-color: #10bcf4;
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.blog a:hover{
+    background: #172535;
+}
+.blog .blog-text{
+    padding: 15px;
+}
+
+.blog span a{
+    padding: 0px;
+    color: #10bcf4;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background: white;  
+}
+.blog h3{
+    font-size: 22px;
+}
+/*-------END OF BLOG SECTION---------*/
+
+footer{
+    background: #252f38;
+}
+footer p{
+    color: #d4d5d6;
+    width: 85%;
+    padding: 10px;
+}
+footer .col-md-4{
+    border-left: 1px solid red;
+    padding-left: 0px;
+    height: 300px;
+    margin-bottom: 50px;
+}
+footer h4{
+    border-bottom: 1px solid red;
+    display: inline-block;
+    padding-bottom: 10px;
+    padding-left:  15px;
+}
+footer .social-list a{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #435a6f;   
+    border-radius: 15px;
+    display: inline-block;
+}
+footer .social-list{
+    width: auto;
+    margin-left: 0px;
+    padding: 10px;  
 }

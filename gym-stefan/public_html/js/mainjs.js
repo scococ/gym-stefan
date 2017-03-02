@@ -10,20 +10,20 @@ $(document).ready(function(){
             nav: true,
             responsive: {
                 0: {
-                    items: 2,
+                    items: 1,
                     margin: 50
                     
                 },
                 768: {
-                    items: 3,
+                    items: 2,
                     margin: 75
                 },
                 992: {
-                    items: 4
+                    items:3
 
                 },
                 1200: {
-                    items: 4
+                    items: 5
 
                 }
             }
