@@ -4,7 +4,7 @@ $(document).ready(function(){
   if($('.slider-list').length>0){
         $('.gallery').owlCarousel({
             loop: true,
-            margin: 124,
+            margin: 30,
             
             responsiveClass: true,
             nav: true,
@@ -22,8 +22,9 @@ $(document).ready(function(){
                     items:3
 
                 },
-                1200: {
-                    items: 5
+                1400: {
+                    items: 5,
+                    margin: 50
 
                 }
             }
