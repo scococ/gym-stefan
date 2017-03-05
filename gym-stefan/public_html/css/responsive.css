@@ -29,6 +29,10 @@
 footer input{
     width: 60%;
 }
+.about-me .col-md-4{
+    padding-left: 0px;
+    padding-right: 0px;
+}
 
 }
 

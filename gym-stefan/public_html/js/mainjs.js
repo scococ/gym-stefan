@@ -11,19 +11,19 @@ $(document).ready(function(){
             responsive: {
                 0: {
                     items: 1,
-                    margin: 50
+                    margin: 10
                     
                 },
-                768: {
+                470: {
                     items: 2,
                     margin: 75
                 },
-                992: {
+                900: {
                     items:3
 
                 },
-                1400: {
-                    items: 5,
+                1200: {
+                    items: 4,
                     margin: 50
 
                 }

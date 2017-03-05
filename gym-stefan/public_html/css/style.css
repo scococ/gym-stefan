@@ -221,6 +221,11 @@ nav > div{
     margin-top: 15px;
     margin-bottom: 10px;
 }
+.training .col-md-8 a:hover{
+    background: white;
+    color: #10bcf4;
+    border: 1px solid #10bcf4;
+}
 .training .col-md-4 p{
     font-weight: 500;
     color: #10bcf4;
@@ -250,6 +255,9 @@ nav > div{
     background: black;
     opacity: 0.8;
 }
+.owl-carousel .owl-item img {
+    width: auto;
+}
 
 .slide-img .carousel-icon{
     position: relative;
@@ -259,16 +267,17 @@ nav > div{
     width: 100%;
     height: 100%;
     color: #10bcf4;
+    padding-top: 20px;
 }
 .slide-img .carousel-icon img{
     max-width: 150px;
-    height: 70px;   
+    height: 50px;   
     display: inline-block;
     padding-top: 0px;
 }
 .slide-img .boxing{
     width: 30px !important;
-    height: 80px !important;
+    height: 50px !important;
 }
 .slide-img a{
     text-decoration: none;
@@ -502,14 +511,14 @@ footer a{
 }
 /*-----END OF FOOTER SECTION-------------*/
 
-.intro-trainers{
+.intro{
      background-repeat: no-repeat;
      position: relative;
      background-size: cover;
      height: 250px;
      margin-bottom: 50px;
      }
-.intro-trainers>div{
+.intro>div{
          background: black;
          position: absolute;
          opacity: 0.7;
@@ -518,18 +527,36 @@ footer a{
          padding-top: 70px;
          
      }
- .intro-trainers div:last-of-type{
+ .intro div:last-of-type{
          
          position: relative;
     }
- .intro-trainers div:last-of-type h2{
+ .intro div:last-of-type h2{
          color: white;
     }
- .intro-trainers div:last-of-type a{
+ .intro div:last-of-type a{
          color: #10bcf4;
          padding: 10px;
          text-decoration: none;
     }
- .intro-trainers div:last-of-type span{
+ .intro div:last-of-type span{
         padding: 10px;
     }
+    /*-------ABOUT ME------------*/
+    .about-me h3{
+      color: black; 
+      padding-top: 120px;
+    }
+    .about-me p{
+        color: black;
+        font-weight: 600;
+        font-size: 14px;
+        padding-top: 80px;
+    }
+    .about-me .teachers a{
+        margin-left: 0px;
+    }
+/*----CLASSES PAGE---------*/
+.classes-page .col-md-6{
+    margin-bottom: 50px;
+}
