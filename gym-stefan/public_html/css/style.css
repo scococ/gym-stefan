@@ -225,6 +225,7 @@ nav > div{
     background: white;
     color: #10bcf4;
     border: 1px solid #10bcf4;
+    padding: 14px 30px;
 }
 .training .col-md-4 p{
     font-weight: 500;
@@ -232,7 +233,7 @@ nav > div{
 }
 
 .training .col-md-4 a{
-    font-weight: 700;
+    font-weight: 500;
 }
 /*----------END OF TRAINING SECTION--------------*/
 /*Classes slide*/
@@ -379,9 +380,7 @@ nav > div{
     right: 0px;
     display: none;
     opacity: 0.7;
-    padding: 0px;  
-   
-   
+    padding: 0px; 
 }
 .zoom-palet a{
      background: #1a93ba;
@@ -398,7 +397,7 @@ nav > div{
     line-height: 40px;
     font-size: 24px;
 }
-.shop figure:hover .zoom-palet{
+ figure:hover .zoom-palet{
     display: block;
 }
 /*---------END OF SHOP SECTION-------------*/
@@ -559,4 +558,139 @@ footer a{
 /*----CLASSES PAGE---------*/
 .classes-page .col-md-6{
     margin-bottom: 50px;
+}
+/*-----CONTACT PAGE-----*/
+.contac-form{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.contac-form .col-md-8 article{
+    border-left: 1px solid gray;
+    padding-left: 25px;
+}
+
+.contac-form .col-md-4 .fa{
+    color: #10bcf4;
+    padding-right: 10px;
+}
+.contac-form .col-md-4 span{
+    color: black;
+    font-weight: 600;
+}
+.contac-form .col-md-4 section{
+    padding-top: 30px;
+}
+.contac-form .col-md-8 textarea{
+    resize: none;
+    border-radius: 0px;
+    margin-top: 20px;
+    padding-top: 15px;
+}
+.contac-form .col-md-8 p{
+    display: inline-block;
+    
+}
+.contac-form .col-md-8 section{
+    margin-top: 20px;
+}
+.contac-form .col-md-8 button{
+    float: right;
+    padding: 10px 15px;
+    background-color: #10bcf4;
+    color: white;
+    border: none;
+}
+.contac-form .col-md-8 button:hover{
+    background: white;
+    color: #10bcf4;
+    border: 1px solid #10bcf4;
+}
+.contac-form .col-md-8 span{
+    width: 15px;
+    border: 1px solid #2c3945;
+    border-radius: 10px;
+    background: #2c3945;
+    margin-right: 5px;
+}
+.contac-form .col-md-8 .fa{
+    color: white;
+    text-align: center;
+}
+.contac-form .col-md-8 input{
+    border-radius: 0px;
+    margin-top: 20px;
+    padding: 15px;
+    height: auto;
+}
+/*------PRODUCT PAGE CSS-------*/
+.products-page{
+    margin-bottom: 40px;
+}
+.products-page .col-md-4{
+    margin-top: 20px;
+}
+.products-page .col-md-4:nth-of-type(4),.products-page .col-md-4:nth-of-type(7){
+    clear: both;
+}
+.products-page article{
+    border: 1px solid graytext;
+    height: 280px;
+}
+.products-page article img{
+    max-height: 200px;
+    width: 100%;
+    padding: 10px;
+}
+.products-page span{
+    color: #10bcf4;
+}
+.products-page .zoom-palet{
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    display: none;
+    opacity: 0.7;
+    padding: 0px; 
+}
+
+
+/*-------PAGINATION SECTION-----*/
+ .pagination li a{
+    margin-right: 10px;
+}
+ .pagination li a:hover{
+    background: #10bcf4;
+    color: white;
+}
+ .pagination li:nth-of-type(4) a{
+    border: none;
+}
+ .pagination li:nth-of-type(4) a:hover{
+    border: none;
+    background: none;
+    cursor: default;
+}
+ .pagination li:nth-of-type(3) a{
+    border-right: 1px solid #ddd;
+}
+/*-----BLOG SECTION-------*/
+.blog-panel article{
+    border: 1px solid graytext; 
+}
+.blog-panel .col-md-9 img{
+   width: 100%;
+}
+.blog-panel .col-md-3 img{
+    display: block;
+    width: 100%;
+    height: 150px;
+    border-radius: 100%;
+}
+.blog-panel .col-md-3 figure{
+   max-width: 150px;
+   margin: 0 auto;
+   padding-top: 30px;
+}
+.blog-panel .col-md-3 div.text-center{
+    padding: 10px;
 }
