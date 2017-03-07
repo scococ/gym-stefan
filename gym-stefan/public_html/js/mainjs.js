@@ -31,5 +31,11 @@ $(document).ready(function(){
         });
     
     }
+    
+    $('.my-breadcrumb a:last-of-type').addClass('inactive');
+    $('.my-breadcrumb a:last-of-type').click(function(e){
+        e.preventDefault();
+    });
+    
 });
 

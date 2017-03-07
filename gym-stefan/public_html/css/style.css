@@ -16,6 +16,20 @@ header .social-panel a{
 .social-list .fa{
     line-height: 30px;
     color: #435a6f;
+       transition: 1s ease-in;
+  
+}
+.social-list a{
+transition: 1s ease;
+
+}
+.social-list a:hover{
+background: #fff;
+
+}
+.social-list a:hover .fa{
+ color:#000;
+
 }
 .user-log a {
     display: inline !important;
@@ -66,6 +80,7 @@ header .social-panel a{
     border-radius: 25px;
     display: inline-block;
 }
+
 .shop-cart{
     padding-top: 10px;
 }
@@ -97,7 +112,18 @@ header .social-panel a{
     position: relative;
     top: 10px;
     line-height: 40px;
-    color: #10bcf4;
+    color: #10bcf4; 
+}
+.call-us .fa:hover{
+    display: inline-block;
+vertical-align: middle;
+-webkit-transform: perspective(1px) translateZ(0);
+transform: perspective(1px) translateZ(0);
+box-shadow: 0 0 1px transparent;
+position: relative;
+padding-right: 2.2em;
+-webkit-transition-duration: 0.3s;
+transition-duration: 0.3s;
 }
 .call-us a{
     padding-left: 26px;
@@ -378,15 +404,17 @@ nav > div{
     position: absolute;
     top: 0px;
     right: 0px;
-    display: none;
-    opacity: 0.7;
+   z-index:-20;
+    opacity: 0;
     padding: 0px; 
+    transition: 1s ease;
 }
 .zoom-palet a{
      background: #1a93ba;
      display: block;
      width: 40px;
      height: 40px;
+    
      
 }
 .zoom-palet a:last-of-type{
@@ -396,9 +424,14 @@ nav > div{
     color: white;
     line-height: 40px;
     font-size: 24px;
+     transition: 0.5s ease;
+}
+.zoom-palet a:hover .fa{
+    transform: scale(1.1);
 }
  figure:hover .zoom-palet{
-    display: block;
+    opacity: 1;
+    z-index: 20;
 }
 /*---------END OF SHOP SECTION-------------*/
 .blog{
@@ -517,6 +550,9 @@ footer a{
      height: 250px;
      margin-bottom: 50px;
      }
+     .my-breadcrumb .inactive{
+         cursor: text;
+     }
 .intro>div{
          background: black;
          position: absolute;
@@ -598,12 +634,13 @@ footer a{
     padding: 10px 15px;
     background-color: #10bcf4;
     color: white;
-    border: none;
+    border: 1px solid #10bcf4;
+    transition: 1s ease;
 }
 .contac-form .col-md-8 button:hover{
     background: white;
     color: #10bcf4;
-    border: 1px solid #10bcf4;
+    
 }
 .contac-form .col-md-8 span{
     width: 15px;
@@ -635,6 +672,8 @@ footer a{
 .products-page article{
     border: 1px solid graytext;
     height: 280px;
+    max-width: 450px;
+    margin: 0 auto;
 }
 .products-page article img{
     max-height: 200px;
@@ -648,8 +687,8 @@ footer a{
     position: absolute;
     top: 10px;
     right: 25px;
-    display: none;
-    opacity: 0.7;
+   z-index:-20;
+    opacity: 0;
     padding: 0px; 
 }
 
@@ -676,7 +715,9 @@ footer a{
 /*-----BLOG SECTION-------*/
 .blog-panel article{
     border: 1px solid graytext; 
+    margin-bottom: 20px;
 }
+
 .blog-panel .col-md-9 img{
    width: 100%;
 }
@@ -693,4 +734,77 @@ footer a{
 }
 .blog-panel .col-md-3 div.text-center{
     padding: 10px;
+}
+
+.blog-social {
+    list-style: none;   
+    display: table;
+    table-layout: fixed;
+    padding: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+}
+.blog-social  li{
+    display: table-cell;
+    text-align: center;
+    border: 1px solid graytext;
+    border-bottom: none;
+    border-right: none;
+}
+.blog-social  li:first-of-type{
+    border-left: none;
+}
+.blog-social  li a{
+    display: block; 
+    padding: 10px;
+    color: black;
+    font-size: 16px;
+    
+}
+.blog-categories h3{
+    color: #10bcf4;
+}
+.blog-categories section{
+    border-bottom: 1px solid graytext;
+    padding: 10px;
+    position: relative;
+}
+.blog-categories ul{
+    list-style: none;
+    padding: 0px;
+}
+.blog-categories ul li{
+    padding: 10px;
+    border-bottom: 1px solid graytext;
+}
+.blog-categories ul li:last-of-type{
+    border-bottom: none;
+    padding-bottom: 30px;
+}
+.blog-categories ul li p{
+    color: #10bcf4;
+}
+.blog-categories ul li .fa{
+    color: #10bcf4;
+    padding-right: 5px; 
+}
+.blog-categories ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+.blog-categories section div{
+    width: 25px;
+    height: 20px;
+    background: #10bcf4;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    
+}
+.caption-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
