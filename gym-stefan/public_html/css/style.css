@@ -114,16 +114,43 @@ header .social-panel a{
     line-height: 40px;
     color: #10bcf4; 
 }
-.call-us .fa:hover{
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px transparent;
-    position: relative;
-    padding-right: 2.2em;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
+/* Buzz */
+@-webkit-keyframes hvr-buzz {
+  50% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+  100% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+}
+@keyframes hvr-buzz {
+  50% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+  100% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+}
+.hvr-buzz {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+}
+.hvr-buzz:hover, .hvr-buzz:focus, .hvr-buzz:active {
+  -webkit-animation-name: hvr-buzz;
+  animation-name: hvr-buzz;
+  -webkit-animation-duration: 0.15s;
+  animation-duration: 0.15s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
 }
 .call-us a{
     padding-left: 26px;
@@ -1022,11 +1049,11 @@ footer a{
 .read-articles figure{
     overflow: hidden;
     padding: 0;
-    
+
 }
 .read-articles figure img{
     transition: 1s ease;
-   
+
 }
 .read-articles figure:hover img{
     transform: scale(1.1);
@@ -1066,10 +1093,7 @@ footer a{
     width: 100%;
     height: 100%;
 }
-.comments p{
-    padding: 0px!important;
-    
-}
+
 .comments .media-body span{
     color: #10bcf4!important;
 }
@@ -1089,9 +1113,7 @@ footer a{
 .ratings-reply a, .ratings-reply i{
     color: black!important;
 }
-.media-body section{
-    border-bottom: 1px solid #ececec;
-}
+
 .comments-form figure{
     width: 64px;
     height: 64px;
@@ -1103,24 +1125,99 @@ footer a{
 }
 .comments-form form{
     display: inline-block;
-    width: 90%;
+    width: 80%;
+    padding-left: 25px;
+    margin-bottom: 20px;
 }
 .comments-form textarea{
     display: block;
     width: 100%;
+    resize: none;
+    padding: 10px 10px;
+    background: #f0f5f5;
+    border:none;
 }
+.comments button{
+    margin-top: 20px;
+    padding: 10px 30px;
+    border: 1px solid #10bcf4;;
+    color: white;
+}
+.comments button:hover{
+    transition: 1s ease;
+    background: white;
+    color: #10bcf4;
+}
+.hvr-rectangle-out {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  background: #10bcf4;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  
+}
+.hvr-rectangle-out:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: white;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-rectangle-out:hover, .hvr-rectangle-out:focus, .hvr-rectangle-out:active {
+  color: #10bcf4;;
+}
+.hvr-rectangle-out:hover:before, .hvr-rectangle-out:focus:before, .hvr-rectangle-out:active:before {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}/*---------------------------------rectangle out effect---*/
+
 .caption-icon{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
+.comments section h4{
+    border-right: 1px solid #ececec;
+    line-height: 15px;
+    padding-right: 25px;
+}
+.comments section p{
+    padding: 0px!important;
+    padding-top: 10px!important;
+}
+.comments form input{
+    width: 49%;
+    margin-bottom: 20px;
+    padding: 15px 10px;
+    background: #f0f5f5;
+    border:none;
+}
+.comments-single{
+    padding-top: 10px;
+}
 
 .media-body hr{
     position: absolute;
     width: 100%;
-    background: red;
-    border-color:red;
+    border-color:#ececec;
     left: 0;
     margin: 0;
 }
