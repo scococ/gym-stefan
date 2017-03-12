@@ -36,7 +36,9 @@ $(document).ready(function(){
     $('.my-breadcrumb a:last-of-type').click(function(e){
         e.preventDefault();
     });
-    
+    $('#searchbutton').click(function() {
+        $('.in-active').css({"display": "inline"});
+    });
     
 });
 
