@@ -1,9 +1,12 @@
 @media(min-width:768px){
     .social-list{
-        display: block;
+        display: block!important;
     }
     nav{
     width: 710px;
+}
+.logo-panel .col-md-6{
+    display: block !important;
 }
 
 

@@ -34,7 +34,11 @@
                         <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
                     </ul><!-- END OF SOCIAL LIST-->
                     <ul class="user-log list-inline pull-right ">
-                        <li><input type="text"  name="search"></li>
+                        <li>
+                            <form class="search">
+                                <input class="in-active"  type="text"  name="search">
+                            </form>
+                        </li>
                         <li><a href="#" id="searchbutton"><span class="fa fa-search"></span></a> </li>
                         <li>
                             <a href="#"><span class="fa fa-male"></span><p>Log in</p></a></li>
@@ -45,7 +49,7 @@
                 <div class="row">
                     <div class="col-md-3">
                         <section class="call-us">
-                            <p>Call us: 123-456-78-90 <span class="fa fa-phone"></span> </p>
+                            <p>Call us: 123-456-78-90 <span class="fa fa-phone hvr-buzz"></span> </p>
                             <a class="site-mail" href="mailto:nfo@yoursite.com">info@yoursite.com</a>
                         </section>
                     </div>
@@ -54,8 +58,8 @@
                             <img class="center-block" src="img/logo.png" alt="logogym">
                         </figure>
                     </section>
-                    <section class="col-md-3 text-right shop-cart">
-                        <a href="#"><span class="fa fa-shopping-cart"></span></a><p>0 items 0.00$</p>
+                    <section class="col-md-3 text-right shop-cart ">
+                        <a class="hvr-grow-rotate" href="#"><span class="fa fa-shopping-cart"></span></a><p>0 items 0.00$</p>
                     </section>
                 </div>
             </div><!--END OF LOGO PANEL-->
@@ -72,9 +76,9 @@
                     </div>
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Events</a></li>
+                        <ul class="nav navbar-nav ">
+                            <li class="hvr-underline-reveal"><a href="#">Home</a></li>
+                            <li class="hvr-underline-reveal"><a href="#">Events</a></li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown"
                                    role="button" aria-haspopup="true" aria-expanded="false">Classes
@@ -87,10 +91,10 @@
                                     <li><a href="#">Separated link</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#">Trainers</a></li>
-                            <li><a href="#">Shop</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li class="hvr-underline-reveal"><a href="#">Trainers</a></li>
+                            <li class="hvr-underline-reveal"><a href="#">Shop</a></li>
+                            <li class="hvr-underline-reveal"><a href="#">Blog</a></li>
+                            <li class="hvr-underline-reveal"><a href="#">Contact</a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
@@ -172,8 +176,8 @@
                                     <a href="#"> 
                                         <div class="carousel-icon text-center">
                                             <div class="caption-icon">
-                                            <img src="img/aerobic-icon.png" alt="">
-                                            <h4>aerobic</h4>
+                                                <img src="img/aerobic-icon.png" alt="">
+                                                <h4>aerobic</h4>
                                             </div>
                                         </div>
                                     </a>
@@ -186,8 +190,10 @@
                                 <div class="hover">
                                     <a href="#"> 
                                         <div class="carousel-icon text-center">
-                                            <img class="boxing" src="img/boxing-icon.png" alt="">
-                                            <h4>boxing</h4>
+                                            <div class="caption-icon">
+                                                <img class="boxing" src="img/boxing-icon.png" alt="">
+                                                <h4>boxing</h4>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
@@ -199,8 +205,10 @@
                                 <div class="hover">
                                     <a href="#">
                                         <div class="carousel-icon text-center">
-                                            <img src="img/dumblle-icon.png" alt="">
-                                            <h4>cross-fit</h4>
+                                            <div class="caption-icon">
+                                                <img src="img/dumblle-icon.png" alt="">
+                                                <h4>cross-fit</h4>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
@@ -212,8 +220,10 @@
                                 <div class="hover">
                                     <a href="#"> 
                                         <div class="carousel-icon text-center">
-                                            <img src="img/yoga-icon.png" alt="">
-                                            <h4>yoga</h4>
+                                            <div class="caption-icon">
+                                                <img src="img/yoga-icon.png" alt="">
+                                                <h4>yoga</h4>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
@@ -225,10 +235,10 @@
                                 <div class="hover">
                                     <a href="#">
                                         <div class="carousel-icon text-center">
-                                            <article>
+                                            <div class="caption-icon">
                                                 <img src="img/zumba-icon.png" alt="">
                                                 <h4>zumba</h4>
-                                            </article>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>

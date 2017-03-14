@@ -34,7 +34,11 @@
                         <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
                     </ul><!-- END OF SOCIAL LIST-->
                     <ul class="user-log list-inline pull-right ">
-                        <li><input class="in-active" type="text"  name="search"></li>
+                        <li>
+                            <form class="search">
+                                <input class="in-active"  type="text"  name="search">
+                            </form>
+                        </li>
                         <li><a href="#" id="searchbutton"><span class="fa fa-search"></span></a> </li>
                         <li>
                             <a href="#"><span class="fa fa-male"></span><p>Log in</p></a></li>
@@ -45,7 +49,7 @@
                 <div class="row">
                     <div class="col-md-3">
                         <section class="call-us">
-                            <p>Call us: 123-456-78-90 <span class="fa fa-phone hvr-grow-rotate "></span> </p>
+                            <p>Call us: 123-456-78-90 <span class="fa fa-phone hvr-buzz"></span> </p>
                             <a class="site-mail" href="mailto:nfo@yoursite.com">info@yoursite.com</a>
                         </section>
                     </div>
@@ -55,7 +59,7 @@
                         </figure>
                     </section>
                     <section class="col-md-3 text-right shop-cart ">
-                        <a href="#"><span class="fa fa-shopping-cart hvr-buzz"></span></a><p>0 items 0.00$</p>
+                        <a class="hvr-grow-rotate" href="#"><span class="fa fa-shopping-cart"></span></a><p>0 items 0.00$</p>
                     </section>
                 </div>
             </div><!--END OF LOGO PANEL-->
@@ -140,9 +144,11 @@
                 <div class="row">
                     <div class="col-md-6  rossalina">
                         <article>
-                            <figure>
-                                <img src="img/girl-dumbel.jpg" alt="">
-                            </figure>
+                            <a href="#"> 
+                                <figure>
+                                    <img src="img/girl-dumbel.jpg" alt="">
+                                </figure>
+                            </a>
                             <div class="row">
                                 <div class="col-md-8">
                                     <div class="control">
@@ -152,7 +158,7 @@
                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed d
                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed d
                                         </p>
-                                        <a href="#">Learn more</a>
+                                        <a href="#" class="control-a hvr-rectangle-out">Learn more</a>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
@@ -174,9 +180,11 @@
                     </div>
                     <div class="col-md-6  elizabeth">
                         <article>
-                            <figure>
-                                <img src="img/girl-bottle.jpg">
-                            </figure>
+                            <a href="#">
+                                <figure>
+                                    <img src="img/girl-bottle.jpg">
+                                </figure>
+                            </a>
                             <div class="row">
                                 <div class="col-md-8">
                                     <div class="control">
@@ -186,7 +194,7 @@
                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed d
                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed d
                                         </p>
-                                        <a href="#">Learn more</a>
+                                        <a href="#" class="control-a hvr-rectangle-out">Learn more</a>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
@@ -216,8 +224,10 @@
                                 <div class="hover">
                                     <a href="#"> 
                                         <div class="carousel-icon text-center">
-                                            <img src="img/aerobic-icon.png" alt="">
-                                            <h4>aerobic</h4>
+                                            <div class="caption-icon">
+                                                <img src="img/aerobic-icon.png" alt="">
+                                                <h4>aerobic</h4>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
@@ -229,8 +239,10 @@
                                 <div class="hover">
                                     <a href="#"> 
                                         <div class="carousel-icon text-center">
-                                            <img class="boxing" src="img/boxing-icon.png" alt="">
-                                            <h4>boxing</h4>
+                                            <div class="caption-icon">
+                                                <img class="boxing" src="img/boxing-icon.png" alt="">
+                                                <h4>boxing</h4>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
@@ -242,8 +254,10 @@
                                 <div class="hover">
                                     <a href="#">
                                         <div class="carousel-icon text-center">
-                                            <img src="img/dumblle-icon.png" alt="">
-                                            <h4>cross-fit</h4>
+                                            <div class="caption-icon">
+                                                <img src="img/dumblle-icon.png" alt="">
+                                                <h4>cross-fit</h4>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
@@ -255,8 +269,10 @@
                                 <div class="hover">
                                     <a href="#"> 
                                         <div class="carousel-icon text-center">
-                                            <img src="img/yoga-icon.png" alt="">
-                                            <h4>yoga</h4>
+                                            <div class="caption-icon">
+                                                <img src="img/yoga-icon.png" alt="">
+                                                <h4>yoga</h4>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
@@ -268,10 +284,10 @@
                                 <div class="hover">
                                     <a href="#">
                                         <div class="carousel-icon text-center">
-                                            <article>
+                                            <div class="caption-icon">
                                                 <img src="img/zumba-icon.png" alt="">
                                                 <h4>zumba</h4>
-                                            </article>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
@@ -409,7 +425,7 @@
                                         Lorem ipsum dolor sit amet, c
                                         onsectetur adipisicing elit, sed donsectetur adipisicing elit, sed d
                                     </p>
-                                    <a href="#">Learn more</a>
+                                    <a href="#" class="hvr-rectangle-out control-a">Learn more</a>
                                 </div>
                             </article>
                         </div>
@@ -425,7 +441,7 @@
                                         Lorem ipsum dolor sit amet, c
                                         onsectetur adipisicing elit, sed donsectetur adipisicing elit, sed d
                                     </p>
-                                    <a href="#">Learn more</a>
+                                    <a href="#" class="hvr-rectangle-out control-a">Learn more</a>
                                 </div>
                             </article>
                         </div>
