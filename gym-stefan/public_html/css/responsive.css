@@ -17,6 +17,12 @@
 .navbar-brand{
     display: none;
 }
+.sign-social a{
+    width: 49% !important;
+}
+.sign-social a:last-of-type{
+    float: right !important;
+}
 
 }
 

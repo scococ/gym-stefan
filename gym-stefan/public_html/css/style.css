@@ -53,7 +53,7 @@ header .social-panel a{
     margin-right: 5px;
 }
 .user-log li:last-of-type a{
-    border-left: 1px solid #ececec !important;
+    border-left: 1px solid #435a6f !important;
     width: inherit;
     padding-left: 10px;
     border-radius: 0px;
@@ -565,7 +565,7 @@ figure:hover .zoom-palet{
     border: 1px solid #ececec;
 
 }
- .control-a{
+.control-a{
     display: inline-block;
     background-color: #10bcf4;
     padding: 15px 30px;
@@ -1239,7 +1239,7 @@ footer a{
 .comments button{
     margin-top: 20px;
     padding: 10px 30px;
-    border: 1px solid #10bcf4;;
+    border: 1px solid #10bcf4;
     color: white;
 }
 .comments button:hover{
@@ -1319,4 +1319,54 @@ footer a{
     border-color:#ececec;
     left: 0;
     margin: 0;
+}
+/*---LOG IN OR REGISTER---*/
+.login-register form{
+    margin-top: 20px;
+}
+.login-register form label{
+    display: inline-block;
+    width: 100%;
+}
+.login-register form input{
+    display: block;
+    width: 100%;
+    padding: 10px 10px;
+    margin: 15px 0px;
+}
+.login-register button{
+    padding: 5px 30px !important;
+    display: block;
+}
+.login-register input[name]{
+    width: auto;
+    display: inline;
+}
+.sign-in span, .create-new span{
+    color: #10bcf4;
+}
+.sign-social a{
+    color: white;
+    padding: 10px 35px;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.sign-social a:first-of-type{
+    background:  #3b5998;
+}
+.sign-social a:last-of-type{
+    background: #10bcf4;
+    float: none;
+}
+.sign-social i{
+    margin-right: 10px !important;
+}
+.create-new i{
+    color: red; 
+    position: relative;
+    top: -5px;
+    font-size: 8px;
 }
