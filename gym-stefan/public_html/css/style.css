@@ -1370,3 +1370,35 @@ footer a{
     top: -5px;
     font-size: 8px;
 }
+.plus{
+    color: #10bcf4;
+    font-weight: 500;
+}
+.billing input, .billing select{
+    border-radius: 0px !important;
+}
+
+.billing{
+    padding-bottom: 60px;
+}
+.order{
+    padding-bottom: 30px;
+}
+.order article{
+    border: 1px solid #ececec;;
+    padding: 0 15px;
+}
+.order-first section{
+    padding: 10px 0;
+    
+}
+.order .order-second{
+    border-top: 1px solid #ececec;;
+    margin: 0 -15px;
+    padding: 15px;
+}
+.order .order-second p{
+    display: inline-block;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
