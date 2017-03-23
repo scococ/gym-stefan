@@ -23,6 +23,13 @@
 .sign-social a:last-of-type{
     float: right !important;
 }
+.large-pic{
+    display: block !important;
+}
+.search-bar input{
+    width: 300px !important;
+}
+
 
 }
 

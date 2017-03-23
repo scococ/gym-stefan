@@ -1402,3 +1402,51 @@ footer a{
     background-color: #f2f2f2;
     padding: 10px;
 }
+/*-----404 page---------*/
+.search-bar{
+    background-color: #10bcf4;
+    padding: 30px;
+    position: relative;
+    bottom: 0;
+    transform: translateY(10%);
+    width: 100%;  
+    margin-top: 50px;
+}
+
+.search-bar input{
+    border-radius: 15px;
+    border: none;
+    padding: 8px 20px;
+    max-width: 300px;
+}
+.search-bar i{
+    position: relative;
+    left: -30px;
+}
+.large-pic{
+    position: relative;
+    z-index: 10;
+    margin: 0 auto;
+    width: 100%;
+    display: none;
+}
+.large-pic img{
+    display: block;
+}
+.not-found{
+    background: url('../img/404-background.jpg') repeat;
+    padding-top: 30px;
+}
+.not-found .col-md-6 figure:last-of-type{
+    height: 300px;
+}
+.logo-side{
+    margin-top: 100px;
+}
+.logo-side figure{
+    height: 100%;
+    margin-top: 60px;
+}
+.not-found span{
+    color:  #10bcf4;
+}
